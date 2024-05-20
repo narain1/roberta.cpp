@@ -95,9 +95,9 @@ if __name__ == "__main__":
         'num_attention_heads', 'num_hidden_layers', 'layer_norm_eps'
     ]
 
-    gguf_writer = GGUFWriter("deberta.gguf", 'deberta')
-    gguf_writer.add_name("deberta")
-    gguf_writer.add_description("ggml deberta model")
+    gguf_writer = GGUFWriter("roberta.gguf", 'roberta')
+    gguf_writer.add_name("roberta")
+    gguf_writer.add_description("ggml roberta model")
     gguf_writer.add_file_type(qtype)
 
     # writing model parameters
